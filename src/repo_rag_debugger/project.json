@@ -1,0 +1,24 @@
+{
+  "slug": "repo-rag-debugger",
+  "name": "Repo RAG Debugger",
+  "category": "Developer Tool",
+  "track": "LLM",
+  "stage": "Ready to build",
+  "summary": "A source-aware debugging assistant that indexes codebases, stack traces, and docs to propose grounded fixes.",
+  "problem": "Developers waste time reconstructing code context from scattered docs, logs, and repository structure.",
+  "users": "AI engineers, backend teams, open-source maintainers",
+  "stack": [
+    "Python",
+    "FastAPI",
+    "SQLite",
+    "Embeddings",
+    "RAG"
+  ],
+  "why_now": "Codebase copilots remain weak at repository-specific reasoning and postmortem-style debugging.",
+  "mvp": [
+    "Index repositories and markdown docs",
+    "Upload stack traces or pasted errors",
+    "Return grounded explanations with cited files",
+    "Track accepted fixes for future retrieval"
+  ]
+}
