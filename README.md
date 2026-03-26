@@ -47,3 +47,13 @@ Python, FastAPI, SQLite, Embeddings, RAG
 - Tests for the primary contract
 - Documentation for roadmap and architecture
 - Space for production integrations in the next iteration
+
+## Showcase
+
+This repository ships with a static Vercel-ready landing page for demos and previews.
+
+```bash
+vercel deploy -y
+```
+
+The deployed site presents Repo RAG Debugger as a standalone product page.
